@@ -1,0 +1,75 @@
+Docker:
+
+The docker version: command is used to display detailed information about the Docker client and server versions.
+
+docker info: displays system wide information regarding the Docker installation. Information displayed includes the kernel version, number of containers and images
+
+The docker images command is used to list all the Docker images that are available on your system
+
+docker image ls :List images
+
+docker ps:List containers
+
+docker pull:Pull an image or a repository from a registry
+
+docker inspect: Return low-level information on Docker objects
+
+
+
+docker version
+
+docker info
+
+dockerhub-python and copy pull python
+
+docker inspect python
+
+docker image ls
+
+docker ps
+
+
+
+Perform GIT operations on local remote repositories. (Create Repository, add files. Commit changes, pushing objects to remote repository)
+
+Git is an open-source distributed version control system. It is designed to handle minor to major projects with high speed and efficiency. It is developed to co-ordinate the work among the developers. The version control allows us to track and work together with our team members at the same workspace.
+
+GitHub is a Git repository hosting service. GitHub also facilitates many of its features, such as access control and collaboration. It provides a Web-based graphical interface.
+
+Features of GitHub:
+
+Collaboration
+
+Integrated issue and bug tracking
+
+Graphical representation of branches
+
+Git repositories hosting
+
+Project management
+
+Team management
+
+
+
+git config --global user.name "Aishwarya290904"
+
+git config --global user.email "shelaraishu29@gmail.com"
+
+git config --list
+
+git init
+
+git pull url
+
+text file
+
+git init
+
+git add .
+
+git commit -m "msg"
+
+git remote add origin url
+
+git push -u origin master
